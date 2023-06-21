@@ -364,4 +364,40 @@ body {
         padding-bottom: 20px;
         color: white;
       }
+      .card-container {
+        display: flex;
+        margin: 0 46px;
+        padding: 0 12px;
+        
+      }
       
+      .card {
+        flex: 1;
+        background-color: white;
+        border-radius: 5px;
+        padding: 50px 50px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+      }
+      
+      .card:hover {
+        transform: translateY(-5px); 
+      }
+      
+      card:last-child {
+        margin-right: 0; 
+      }
+      
+      .card h3 {
+        margin-top: 0;
+        color: #37517e;
+      
+      }
+      .card h3:hover{
+        color: rgb(71, 178, 228);
+      }
+      .card p {
+        margin-bottom: 0;
+        color: black;
+      }
