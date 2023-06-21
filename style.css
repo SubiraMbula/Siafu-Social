@@ -265,4 +265,83 @@ body {
         font-size: 16px;
         margin-bottom: 0;
       }
+      .collapsible-section {
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(243,245,250);
+      }
       
+      .collapsible-list h3{
+        font-size: 30px;
+        color: #37517e;
+      }
+      
+      .collapsible-list p{
+        font-size: 16px;
+      }
+      
+      .list-title:hover{
+        color: rgb(32, 192, 112);
+      }
+      
+      .section-content{
+        margin: 0 46px;
+        padding: 0 12px;
+      }
+      
+      .image-container {
+        flex: 1;
+        text-align: right;
+      }
+      
+      .image-container img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      
+      .section-content {
+        display: flex;
+        align-items: center;
+      }
+      
+      .collapsible-list {
+        flex: 1;
+        margin-right: 20px;
+      }
+      
+      .collapsible-list {
+        flex: 1;
+        margin-left: 20px;
+      }
+      
+      .collapsible-list ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      
+      .list-item {
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 5px;
+        padding: 25px;
+      }
+      
+      .list-title {
+        color: #333;
+        cursor: pointer;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      
+      .list-content {
+        display: none;
+        margin-top: 10px;
+      }
+      
+      .list-content p {
+        margin: 0;
+      }
