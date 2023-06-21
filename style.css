@@ -249,4 +249,20 @@ body {
         padding: 0 12px;
         align-items: center;
       }
+      .About h2{
+        padding-top: 2em;
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        color: #37517e;
+        text-align: center;
+      }
+      
+      .About p,li{
+        font-size: 16px;
+        margin-bottom: 0;
+      }
       
