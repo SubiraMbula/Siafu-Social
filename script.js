@@ -32,3 +32,12 @@ function closeAllListItems() {
     listContent.style.display = 'none';
   });
 }
+// Get all card elements
+const cards = document.querySelectorAll('.card');
+
+// Attach click event listener to each card
+cards.forEach(card => {
+  card.addEventListener('click', () => {
+    card.classList.toggle('is-flipped');
+  });
+});
