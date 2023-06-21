@@ -876,5 +876,18 @@ body {
          }
         }
       }
+      .newsletter{
+        background-color: white;
+    }
+    
+    
+    .news{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 3em;
+      color: black;
       
+    }
+    
       
