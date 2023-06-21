@@ -6,8 +6,60 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #080710;
+    background-color: #37517e;
 }
+
+.navbar {
+    background-color: rgb(55, 81, 126);
+    height: 50px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    margin-right: auto;
+  }
+  
+  .logo{
+    margin: 0 46px;
+    padding: 0 12px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0 46px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .navbar li:last-child a.button {
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid rgb(71, 178, 228);
+  }
+  
+  .navbar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar li a:hover,
+  .navbar li a:active,
+  .navbar li a:focus {
+    color: rgb(24, 201, 112);
+  }
 .background{
     width: 430px;
     height: 520px;
