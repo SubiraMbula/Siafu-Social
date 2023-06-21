@@ -401,3 +401,52 @@ body {
         margin-bottom: 0;
         color: black;
       }
+      .portfolio h2,p{
+        text-align: center;
+      }
+      
+      .portfolio p{
+        font-size: 16px;
+      }
+      
+      .portfolio h2{
+        font-size: 32px;
+        color: #37517e;
+        padding-top: 2em;
+      }
+      
+      .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 46px;
+        padding: 0 12px;
+        justify-content: center;
+        padding-top: 0;
+        
+      }
+      
+      .portfolio-item {
+        flex-basis: calc(25% - 40px);
+        margin: 20px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+      
+      .portfolio-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+      
+      .portfolio-item h3 {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+      
+      .portfolio-item p {
+        margin-top: 5px;
+        font-size: 14px;
+      }
