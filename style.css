@@ -345,3 +345,23 @@ body {
       .list-content p {
         margin: 0;
       }
+      .services{
+        background-color: #37517e;
+        /* padding-top: 5px; */
+      }
+      
+      .services h2,p{
+        text-align: center;
+      }
+      
+      .services h2{
+        font-size: 32px;
+        color: rgb(24, 221, 100);
+      }
+      
+      .services p{
+        font-size: 16px;
+        padding-bottom: 20px;
+        color: white;
+      }
+      
