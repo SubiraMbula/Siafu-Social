@@ -20,7 +20,23 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Tenor Sans', sans-serif;
+    /* Styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    /* CSS styles here */
   }
+  
+  /* Styles for screens between 768px and 992px */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles here */
+  }
+  
+  /* Styles for screens larger than 992px */
+  @media (min-width: 992px) {
+    /* CSS styles here */
+  }
+}
+
   .navbar {
     background-color: rgb(55, 81, 126);
     height: 50px;
@@ -29,7 +45,22 @@ body {
     top: 0;
     display: flex;
     align-items: center;
+    font-family: 'Tenor Sans', sans-serif;
+    /* Styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    /* CSS styles here */
   }
+  
+  /* Styles for screens between 768px and 992px */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles here */
+  }
+  
+  /* Styles for screens larger than 992px */
+  @media (min-width: 992px) {
+    /* CSS styles here */
+  }
+}
   
   .navbar .logo {
     margin-right: auto;
@@ -72,11 +103,25 @@ body {
   .navbar li a:focus {
     color: rgb(24, 201, 112);
   }
-  .home {
+  #home {
     padding: 30px 20px;
     background-color: rgb(55, 81, 126);
-  
+    font-family: 'Tenor Sans', sans-serif;
+    /* Styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    /* CSS styles here */
   }
+  
+  /* Styles for screens between 768px and 992px */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles here */
+  }
+  
+  /* Styles for screens larger than 992px */
+  @media (min-width: 992px) {
+    /* CSS styles here */
+  
+  }}
   
   .home-content {
     display: flex;
@@ -163,10 +208,14 @@ body {
       50%  { transform: translate(0, 15px); }
   }
   
-  .sec{
+  #sec{
     background-image: url(/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .arrow{
+     height: 5em;
+     width: 15em;  
   }
   .section1 {
     padding: 120px 0;
@@ -244,12 +293,25 @@ body {
       .button4:focus {
         outline: none;
       }
-      .About{
+      
+      #About{
         margin: 0 46px;
         padding: 0 12px;
         align-items: center;
+        /* display: ; */
+        overflow:auto;
       }
-      .About h2{
+      
+      .context{
+        display: block;
+        float: right;
+      }
+
+      .arrow{
+        transform: translateX(-2em);
+      }
+
+      #About h2{
         padding-top: 2em;
         font-size: 32px;
         font-weight: bold;
@@ -261,7 +323,7 @@ body {
         text-align: center;
       }
       
-      .About p,li{
+      #About p,li{
         font-size: 16px;
         margin-bottom: 0;
       }
@@ -276,6 +338,8 @@ body {
       .collapsible-list h3{
         font-size: 30px;
         color: #37517e;
+        padding-top: 1em;
+        padding-bottom: 2em;
       }
       
       .collapsible-list p{
